@@ -18,11 +18,17 @@ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
 ```
 
 
-Download Apache Tomcat 10.1.7
+
+Download Apache Tomcat
 Visit the specified URL to get the latest version if needed
+```
+https://tomcat.apache.org/download-10.cgi
+```
+Download Apache Tomcat 10.1.7
 ```
 wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.7/bin/apache-tomcat-10.1.7.tar.gz
 ```
+
 
 
 Extract the downloaded file
@@ -99,7 +105,7 @@ systemctl status tomcat
 
 
 
-Configure remote access for Tomcat Manager
+Remove some line in the Configure file in Tomcat Manager
 ```
 vim /opt/tomcat10/webapps/manager/META-INF/context.xml
 ```
@@ -110,7 +116,7 @@ Remove the following Valve configuration
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 ```
 
-Remove the same configuration for host-manager
+Remove some line in the Configure file in Tomcat host-manager
 ```
 vim /opt/tomcat10/webapps/host-manager/META-INF/context.xml
 ```
