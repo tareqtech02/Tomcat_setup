@@ -52,8 +52,7 @@ wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.7/bin/apache-tomcat-10.1.7.
 
 Extract the downloaded file
 ```
-gunzip <FileName>
-tar -xvpf <FileName>
+tar -zxpvf <FileName>
 ```
 
 
