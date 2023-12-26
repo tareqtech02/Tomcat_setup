@@ -154,12 +154,7 @@ Check the status of the Tomcat service after restart
 systemctl status tomcat
 ```
 
-
-
-
-
-
-Import the Jenkins repository GPG key.
+Open Google chrome and run your IP with ports 8080
 ```
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+http://<IP Address>:8080
 ```
