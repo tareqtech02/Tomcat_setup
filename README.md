@@ -1,4 +1,22 @@
+
+## Ensure an internet connection is available.
 # Follow these steps to download and install tomcat 
+```
+ping google.com -c 5
+```
+
+
+Update the Systme
+```
+sudo yum upgrade -y
+```
+
+Reboot the system
+```
+reboot
+```
+
+
 
 Install OpenJDK 11
 ```
