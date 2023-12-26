@@ -177,6 +177,12 @@ Check Tomcat version
 /opt/tomcat10/bin/version.sh
 ```
 
+Check the status of the firewalld service.
+```
+systemctl status firewalld.service
+systemctl stop firewalld.service
+systemctl disable firewalld.service
+```
 
 Open Google chrome and run your IP with ports 8080
 ```
