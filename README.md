@@ -172,6 +172,11 @@ Check the status of the Tomcat service after restart
 ```
 systemctl status tomcat
 ```
+Check Tomcat version
+```
+/opt/tomcat10/bin/version.sh
+```
+
 
 Open Google chrome and run your IP with ports 8080
 ```
