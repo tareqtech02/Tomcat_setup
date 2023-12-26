@@ -1,9 +1,10 @@
-
 ## Ensure an internet connection is available.
-# Follow these steps to download and install tomcat 
+
 ```
 ping google.com -c 5
 ```
+
+## Ensure to update the System
 
 
 Update the Systme
@@ -16,7 +17,7 @@ Reboot the system
 reboot
 ```
 
-
+## Follow these steps to download and install tomcat 
 
 Install OpenJDK 11
 ```
